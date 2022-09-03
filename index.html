@@ -8,18 +8,40 @@
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
-    <main>
-        <section id="login">
-            <div id="imagem">
-                Foto
-            </div>
-            <div id="formulario">
-                <h1>Login</h1>
-                <p>Seja bem vindo(a) novamente. Faça login na sua conta e poder fazer configurações no seu ambiente.</p>
+    <main class="area-login">
+        
+            <div class="login">
+                <div id="imagem">
+                   <img src="imagens/pexels-vinícius-estevão-2896034.jpg" alt="">
+                </div>
+                <div class="formulario">
+                    <h1>Login</h1>
+                    
+                    <form method="post">
                 
+                            <div><input type="text" name="usuario" placeholder="Usuario" autofocus></div>
+                
+                            <input type="password" name="senha" id="" placeholder="Senha">
+                
+                            <div><button>
+                                <div class="svg-wrapper-1">
+                                  <div class="svg-wrapper">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                      <path fill="none" d="M0 0h24v24H0z"></path>
+                                      <path fill="currentColor" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
+                                    </svg>
+                                  </div>
+                                </div>
+                                <span>Send</span>
+                              </button></div>
+                    </form>
+                    <p>Ainda não tem conta? <a href="#"> Criar conta</a>
+                    </p>
+                </div>
             </div>
+            
 
-        </section>
+        
     </main>
 
     
